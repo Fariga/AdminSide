@@ -1,0 +1,36 @@
+@use 'sass:math';
+
+/**
+* Подключение шрифтов локально из папки "./src/fonts"
+*/
+@import 'config/fonts';
+
+/** Подключение переменных */
+@import 'config/variables';
+
+/**
+* Подключение sass function и mixins и extends стилей
+*/
+@import 'config/functions';
+@import 'config/mixins';
+
+/** Приведение к единому стилю */
+@import 'config/normalize';
+
+
+/**
+* Общие параметры, шаблоны(заготовки) и вспомогательные классы
+*/
+@import 'config/base';
+@import 'config/animations';
+
+/**
+* БЕМ блоки используемые во всё проекте
+*/
+@import 'config/common';
+
+/**
+* Подключение стилей отдельных блоков и секций
+*/
+@import 'components/header';
+
