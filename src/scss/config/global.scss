@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  hyphens: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100%;
+  font: 400 rem(18) 1.5 var(--main-font);
+  background-color: var(--main-background-color);
+}  
+

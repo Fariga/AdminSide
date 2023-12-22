@@ -1,9 +1,9 @@
 @use 'sass:math';
 
-/**
-* Подключение шрифтов локально из папки "./src/fonts"
-*/
-@import 'config/fonts';
+// /**
+// * Подключение шрифтов локально из папки "./src/fonts"
+// */
+// @import 'config/fonts';
 
 /** Подключение переменных */
 @import 'config/variables';
@@ -21,7 +21,7 @@
 /**
 * Общие параметры, шаблоны(заготовки) и вспомогательные классы
 */
-@import 'config/base';
+@import 'config/global';
 @import 'config/animations';
 
 /**
