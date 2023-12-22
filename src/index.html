@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
   @@include('html/head.html', {
-    'title': 'Главная'
+    'title': 'AdminSite'
   })
   <body>
+    @@include('/src/html/components/common/icons.html') 
+
+    <svg class="icon">
+      <use xlink:href="sprite.svg#clock"></use>
+    </svg>
+
     <div class="wrapper">
       @@include('html/header.html')
 
