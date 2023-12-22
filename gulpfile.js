@@ -12,7 +12,7 @@ import { server } from './gulp/tasks/server.js';
 import { scss } from './gulp/tasks/scss.js';
 import { javaScript } from './gulp/tasks/javaScript.js';
 import { images } from './gulp/tasks/images.js';
-import { otfToTtf, ttfToWoff, fontStyle } from './gulp/tasks/fonts.js';
+// import { otfToTtf, ttfToWoff, fontStyle } from './gulp/tasks/fonts.js';
 import { createSvgSprite } from './gulp/tasks/createSvgSprite.js';
 import { zip } from './gulp/tasks/zip.js';
 import { ftpDeploy } from './gulp/tasks/ftpDeploy.js';
@@ -37,7 +37,7 @@ function watcher() {
 /**
  * Последовательная обработка шрифтов
  * */
-const fonts = gulp.series(otfToTtf, ttfToWoff, fontStyle);
+// const fonts = gulp.series(otfToTtf, ttfToWoff, fontStyle);
 
 /**
  * Параллельные задачи в режиме разработки
@@ -47,7 +47,7 @@ const devTasks = gulp.parallel(copy, copyRootFiles, createSvgSprite, handleHTML,
 /**
  * Основные задачи
  * */
-const mainTasks = gulp.series(fonts, devTasks);
+const mainTasks = gulp.series(devTasks);
 
 /**
  * Построение сценариев выполнения задач
