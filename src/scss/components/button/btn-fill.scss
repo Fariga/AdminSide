@@ -1,0 +1,25 @@
+.btn-fill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 112px;
+  font: 400 rem(18)/1 var(--main-font);
+  color: var(--white);
+  border-radius: 2.5em;
+  border: none;
+  background-color: var(--purple);
+
+  &--submit {
+    padding: rem(21) rem(24);
+  }
+
+  &--student {
+    padding: rem(21) rem(31);
+    gap: rem(16);
+
+    svg {
+      width: rem(16);
+      aspect-ratio: 1/1;
+    }
+  }
+}

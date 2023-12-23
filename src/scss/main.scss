@@ -1,9 +1,7 @@
 @use 'sass:math';
 
-// /**
-// * Подключение шрифтов локально из папки "./src/fonts"
-// */
-// @import 'config/fonts';
+/** Приведение к единому стилю */
+@import 'config/normalize';
 
 /** Подключение переменных */
 @import 'config/variables';
@@ -14,10 +12,6 @@
 @import 'config/functions';
 @import 'config/mixins';
 
-/** Приведение к единому стилю */
-@import 'config/normalize';
-
-
 /**
 * Общие параметры, шаблоны(заготовки) и вспомогательные классы
 */
@@ -25,12 +19,12 @@
 @import 'config/animations';
 
 /**
-* БЕМ блоки используемые во всё проекте
-*/
-@import 'config/common';
-
-/**
 * Подключение стилей отдельных блоков и секций
 */
 @import 'components/header';
+@import 'components/button/btn';
+@import 'components/button/btn-view-more';
+@import 'components/button/btn-transparent.scss';
+@import 'components/button/btn-fill.scss';
+
 
