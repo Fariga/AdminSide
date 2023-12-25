@@ -1,24 +1,16 @@
-.btn-transparent {
+.btn-outline {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 168px;
+  min-width: rem(168);
   font: 400 rem(18)/1 var(--main-font);
   color: var(--purple);
   border-radius: 2.5em;
   border: 2px solid var(--purple);
+  padding: rem(19) rem(22); 
 
-  &--draft {
-    padding: rem(19) rem(22);
-  }
-
-  &--sort {
+  &--wide {
     padding: rem(12) rem(45);
     gap: rem(16);
-
-    svg {
-      width: rem(32);
-      height: rem(32);
-    }
   }
 }

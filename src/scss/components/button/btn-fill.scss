@@ -2,24 +2,16 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 112px;
+  min-width: rem(112);
   font: 400 rem(18)/1 var(--main-font);
   color: var(--white);
   border-radius: 2.5em;
   border: none;
   background-color: var(--purple);
+  padding: rem(21) rem(24);
 
-  &--submit {
-    padding: rem(21) rem(24);
-  }
-
-  &--student {
+  &--icon {
     padding: rem(21) rem(31);
     gap: rem(16);
-
-    svg {
-      width: rem(16);
-      aspect-ratio: 1/1;
-    }
   }
 }
