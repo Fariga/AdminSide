@@ -4,8 +4,9 @@
   padding: rem(21);
   border-radius: 2.22em;
   background-color: var(--purple-10);
-  box-shadow: rem(0) rem(20) rem(50) 0 rgba(191, 21, 108, 0.05);
-  font: 600 rem(18)/1 var(--main-font);
+  box-shadow: var(--shadow-1);
+  font-weight: 600;
+  line-height: 1;
   color: var(--purple);
   cursor: pointer;
   border: none;
