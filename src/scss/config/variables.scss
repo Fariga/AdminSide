@@ -1,7 +1,7 @@
 // Scss variables
 
 :root {
-  --main-font: "Poppins", "Verdana", "Arial" sans-serif;
+  --main-font: "Poppins", "Verdana", "Arial", sans-serif;
   --purple: #4D44B5;
   --orange: #FB7D5B;
   --yellow: #FCC43E;
@@ -16,12 +16,14 @@
 
   //transparent color
 
-  --purple-10: rgba(160, 152, 174, 0.1); 
+  --purple-10: rgba(77, 68, 181, 0.1); 
 
   //gradient color
 
   --liner-1: linear-gradient(180deg, #FB7D5B -242.86%, rgba(251, 125, 91, 0) 100%);
   --liner-2: linear-gradient(180deg, #FCC43E -241.95%, rgba(252, 196, 62, 0) 100%);
   --liner-3: linear-gradient(178.76deg, #4D44B5 -47.98%, #303972 163.51%);
+
+  --shadow-1: rem(0) rem(20) rem(50) 0 rgba(191, 21, 108, 0.05);
 
 }

@@ -1,0 +1,16 @@
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: rem(168);
+  line-height: 1;
+  color: var(--purple);
+  border-radius: 2.5em;
+  border: 2px solid currentColor;
+  padding: rem(19) rem(22); 
+
+  &--wide {
+    padding: rem(12) rem(45);
+    gap: rem(16);
+  }
+}
