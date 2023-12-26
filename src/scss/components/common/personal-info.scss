@@ -1,11 +1,8 @@
-ul, p {
-  margin: 0;
-}
-
 .personal-info__list {
   display: flex;
   list-style: none;
   gap: rem(20);
+  margin: 0;
 }
 
 .personal-info__link {
@@ -16,19 +13,21 @@ ul, p {
   text-decoration: none;
   position: relative;
 
-  svg {
-    &:hover {
+  &:hover {
+    svg {
       color: var(--purple);
-    }
-    
-    &:active {
-        transform: scale(1.2);
-      }
     }
   }
 
+  &:active {
+    svg {
+      transform: scale(1.2);
+    }
+  }
+}
 
-.personal-info__background {
+
+.personal-info__icon {
   width: rem(60);
   height: rem(60);
   border-radius: 50%;
@@ -45,42 +44,3 @@ ul, p {
   border-radius: 50%; 
 }
 
-.personal-info__box {
-  display: flex;
-  gap: rem(24);
-}
-
-.personal-info__text-box {
-  display: flex;
-  flex-direction: column;
-  gap: rem(4);
-}
-
-.personal-info__foto {
-  display: block;
-
-  &:hover img {
-    opacity: 0;
-  }
-
-  img {
-    width: 100%;
-    object-fit: cover;
-    aspect-ratio: 1/1;
-    transition: opacity 0.3s ease;
-  }
-}
-
-.personal-info__text {
-  font-size: rem(14);
-  line-height: 1.5;
-  text-align: right;
-  
-  
-  &--name {
-    font-weight: 600;
-    color: var(--text);
-    margin-top: rem(7);
-    text-decoration: none;
-  } 
-}
