@@ -1,0 +1,31 @@
+.sidebar-menu {
+  background-color: var(--purple);
+  padding: rem(50) rem(0) rem(50) rem(46);
+  width: rem(345);
+}
+
+.sidebar-menu__nav {
+  margin-bottom: rem(80);
+}
+
+.sidebar-menu__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-menu__link {
+  display: inline-flex;
+  align-items: center;
+  gap: rem(24);
+  text-decoration: none;
+  color: var(--grey-2);
+  padding: rem(16) rem(24);
+  width: 100%;
+
+  &--active {
+    background-color: var(--white);
+    border-radius: rem(40) 0 0 rem(40);
+    color: var(--purple);
+  }
+}

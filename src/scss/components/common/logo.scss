@@ -1,0 +1,18 @@
+.logo {
+  margin-bottom: 46px;
+}
+
+.logo-text {
+  margin: 0;
+  font: 700 rem(36)/1.5 var(--main-font);
+  color: var(--white);
+  display: inline-flex;
+  align-items: center;
+  gap: rem(16);
+}
+
+.logo-text--highlight {
+  background-color: var(--orange);
+  padding: rem(6) rem(10);
+  border-radius: 16px;
+}

@@ -1,0 +1,21 @@
+.footer {
+  margin-left: -12px;
+}
+
+.footer__text {
+  margin: 0;
+  font: 700 rem(14)/1.5 var(--main-font);
+  color: var(--white);
+  margin-bottom: rem(15);
+
+  &--copiright {
+    font-weight: 400;
+    // display: inline-flex;
+    // gap: rem(4);
+
+    span {
+      color: var(--red);
+    }
+  }
+}
+
