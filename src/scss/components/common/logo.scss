@@ -2,17 +2,22 @@
   margin-bottom: 46px;
 }
 
-.logo-text {
-  margin: 0;
-  font: 700 rem(36)/1.5 var(--main-font);
+.logo__link {
+  font-weight: 700;
+  font-size: rem(36);
+  line-height: 1.5;
   color: var(--white);
   display: inline-flex;
   align-items: center;
   gap: rem(16);
 }
 
-.logo-text--highlight {
+.logo__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--orange);
-  padding: rem(6) rem(10);
+  width: rem(48);
+  height: rem(48);
   border-radius: 16px;
 }

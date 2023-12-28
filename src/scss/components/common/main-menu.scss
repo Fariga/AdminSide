@@ -1,0 +1,29 @@
+.main-menu {
+  margin-bottom: rem(80);
+}
+
+.main-menu__item {
+  margin-bottom: rem(8);
+}
+
+.main-menu__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu__link {
+  display: flex;
+  align-items: center;
+  gap: rem(24);
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--grey-2);
+  padding: rem(16) rem(24);
+  border-radius: rem(40) 0 0 rem(40);
+
+  &--active {
+    background-color: var(--white);
+    color: var(--purple);
+  }
+}
