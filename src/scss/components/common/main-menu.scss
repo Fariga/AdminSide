@@ -22,6 +22,31 @@
   padding: rem(16) rem(24);
   border-radius: rem(40) 0 0 rem(40);
 
+  span {
+    position: relative;
+  
+  &::after {
+    content: '';
+    height: rem(1);
+    background-color: var(--orange);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+   }
+  }
+  
+  &:hover {
+    color: var(--orange); 
+    & span {
+      &::after {
+        width: 100%;
+        transition: 2s;
+      }
+    }
+  }
+ 
+  
   &--active {
     background-color: var(--white);
     color: var(--purple);

@@ -1,5 +1,5 @@
 .logo {
-  margin-bottom: 46px;
+  margin-bottom: rem(46);
 }
 
 .logo__link {
@@ -19,5 +19,5 @@
   background-color: var(--orange);
   width: rem(48);
   height: rem(48);
-  border-radius: 16px;
+  border-radius: rem(16);
 }
