@@ -1,0 +1,23 @@
+.logo {
+  margin-bottom: rem(46);
+}
+
+.logo__link {
+  font-weight: 700;
+  font-size: rem(36);
+  line-height: 1.5;
+  color: var(--white);
+  display: inline-flex;
+  align-items: center;
+  gap: rem(16);
+}
+
+.logo__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--orange);
+  width: rem(48);
+  height: rem(48);
+  border-radius: rem(16);
+}
