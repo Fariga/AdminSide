@@ -1,6 +1,12 @@
 .user-data {
   display: flex;
   gap: rem(24);
+
+  &--student-list {
+    flex-direction: row-reverse;
+    gap: rem(16);
+    margin-right: auto;
+  }
 }
 
 .user-data__text-box {
@@ -8,6 +14,10 @@
   flex-direction: column;
   gap: rem(4);
   margin-top: rem(7);
+
+  &--student-list {
+    margin-top: 0;
+  }
 }
 
 .user-data__foto {
@@ -30,6 +40,10 @@
   line-height: 1.5;
   text-align: right;
   margin: 0;
+
+  &--student-list {
+    text-align: initial;
+  }
   
   
   &--name {

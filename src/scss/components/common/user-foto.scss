@@ -4,4 +4,9 @@
   border-radius: 50%;
   overflow: hidden;
   background-color: var(--grey-2);
+
+  &--student-list {
+    width: rem(48);
+    height: rem(48);
+  }
 }
