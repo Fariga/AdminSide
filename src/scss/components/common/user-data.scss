@@ -48,4 +48,11 @@
     color: var(--text);
     text-decoration: none;
   } 
+
+  &--size {
+    width: rem(201); 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+  }
 }
