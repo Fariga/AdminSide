@@ -1,0 +1,20 @@
+.food-foto {
+  border-radius: rem(18);
+  overflow: hidden;
+  background-color: var(--grey-2);
+
+  &--sm {
+    width: rem(150);
+    height: rem(150);
+  }
+
+  &--md {
+    width: rem(312);
+    height: rem(160);
+  }
+
+  &--lg {
+    width: rem(361);
+    height: rem(239);
+  }
+}
