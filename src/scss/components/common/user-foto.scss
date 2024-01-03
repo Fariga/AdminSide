@@ -1,12 +1,20 @@
-.user-foto {
-  width: rem(60);
-  height: rem(60);
+.user-foto {  
   border-radius: 50%;
   overflow: hidden;
   background-color: var(--grey-2);
 
-  &--student-list {
+  &--sm {
     width: rem(48);
     height: rem(48);
+  }
+
+  &--md {
+    width: rem(60);
+    height: rem(60);
+  }
+
+  &--xl {
+    width: rem(120);
+    height: rem(120);
   }
 }

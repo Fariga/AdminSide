@@ -1,6 +1,6 @@
 .student-contact__title-box {
   display: flex;
-  gap: gap(10);
+  gap: rem(10);
   margin-bottom: rem(35);
 }
 
@@ -18,13 +18,3 @@
   color: var(--grey-3);
 }
 
-.student-list {
-  margin: 0;
-  padding: 0;
-}
-
-.student-list__item {
-  display: flex;
-  gap: rem(10);
-  margin-bottom: rem(32);
-}

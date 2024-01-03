@@ -1,11 +1,10 @@
 .user-data {
   display: flex;
-  gap: rem(24);
+  gap: rem(16);
+  margin-right: auto;
 
-  &--student-list {
-    flex-direction: row-reverse;
-    gap: rem(16);
-    margin-right: auto;
+  &--md {
+    gap: rem(24);
   }
 }
 
@@ -13,10 +12,9 @@
   display: flex;
   flex-direction: column;
   gap: rem(4);
-  margin-top: rem(7);
-
-  &--student-list {
-    margin-top: 0;
+  
+  &--md {
+    margin-top: rem(7);
   }
 }
 
@@ -38,13 +36,11 @@
 .user-data__text {
   font-size: rem(14);
   line-height: 1.5;
-  text-align: right;
   margin: 0;
 
-  &--student-list {
-    text-align: initial;
+  &--md {
+    text-align: right;
   }
-  
   
   &--name {
     font-weight: 600;

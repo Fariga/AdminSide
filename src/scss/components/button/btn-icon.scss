@@ -7,20 +7,11 @@
   border-radius: 50%;
   cursor: pointer; 
   padding: rem(10);
-  border: rem(2) solid var(--grey-3);
   color: var(--grey-3);
+  border: rem(2) solid currentColor;
   background-color: transparent;
 
   &:hover {
-    border-color: var(--purple);
-
-    svg {
-      color: var(--purple);
-    }
-  }
-
-  &--active {
-    border: none; 
     background-color: var(--purple);
     box-shadow: var(--shadow-1);
     color: var(--white);
