@@ -1,0 +1,15 @@
+.user-list {
+  margin: 0;
+  padding: 0;
+  margin-bottom: rem(32);
+}
+
+.user-list__item {
+  display: flex;
+  gap: rem(10);
+  
+
+  &:not(:last-child) {
+    margin-bottom: rem(32);
+  }
+}
