@@ -8,8 +8,12 @@
   cursor: pointer; 
   padding: rem(10);
   color: var(--grey-3);
-  border: rem(2) solid currentColor;
+  border: 2px solid currentColor;
   background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  flex-shrink: 0;
 
   &:hover {
     background-color: var(--purple);

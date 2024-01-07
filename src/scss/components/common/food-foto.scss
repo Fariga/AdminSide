@@ -2,19 +2,20 @@
   border-radius: rem(18);
   overflow: hidden;
   background-color: var(--grey-2);
+  width: 100%;
 
   &--sm {
-    width: rem(150);
-    height: rem(150);
+    aspect-ratio: 1/1;
+    
   }
 
   &--md {
-    width: rem(312);
-    height: rem(160);
+    aspect-ratio: 2/1;
+    
   }
 
   &--lg {
-    width: rem(361);
-    height: rem(239);
+    aspect-ratio: 1.5/1;
+    
   }
 }
