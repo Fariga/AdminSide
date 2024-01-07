@@ -7,10 +7,13 @@
   color: var(--purple);
   border-radius: 2.5em;
   border: 2px solid currentColor;
-  padding: rem(19) rem(22); 
+  padding: rem(16) rem(24); 
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
 
   &--wide {
-    padding: rem(12) rem(45);
+    padding: rem(16) rem(45);
     gap: rem(16);
   }
 }

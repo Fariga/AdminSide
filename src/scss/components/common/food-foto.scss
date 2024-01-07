@@ -1,0 +1,21 @@
+.food-foto {
+  border-radius: rem(18);
+  overflow: hidden;
+  background-color: var(--grey-2);
+  width: 100%;
+
+  &--sm {
+    aspect-ratio: 1/1;
+    
+  }
+
+  &--md {
+    aspect-ratio: 2/1;
+    
+  }
+
+  &--lg {
+    aspect-ratio: 1.5/1;
+    
+  }
+}
