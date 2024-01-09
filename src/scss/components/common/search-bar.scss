@@ -1,0 +1,26 @@
+.search-bar {
+  position: relative;
+  color: var(--purple);
+
+  svg {
+    position: absolute;
+    left: rem(32);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.search-bar__input {
+  padding: rem(16) rem(32) rem(16) rem(80);
+  border-radius: rem(40);
+  min-width: rem(350);
+  border: none;
+  line-height: 1.5;
+  color: var(--grey-3);
+  vertical-align: middle;
+
+  &:focus {
+    border: 2px solid var(--purple);
+    outline: none;
+  }
+}
