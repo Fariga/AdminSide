@@ -1,0 +1,36 @@
+.chat-legend {
+  display: flex;
+  justify-content: flex-end;
+  gap: rem(16);
+}
+
+.chat-legend__wrapper {
+  position: relative;
+  padding-left: rem(20);
+}
+
+.chat-legend__text {
+  margin: 0 0 rem(4) 0;
+  font-size: rem(14);
+  color: var(--grey-3);
+  
+  &::before {
+    content: '';
+    position: absolute;
+    width: rem(6);
+    height: rem(6);
+    border-radius: 50%;
+    color: transparent;
+    box-shadow: 0 0 0 3px var(--yellow);
+    left: rem(4);
+    top: rem(7);
+  }
+
+  &--color::before {
+    box-shadow: 0 0 0 3px var(--orange);
+  }
+}
+
+.chat-legend__number {
+  font-weight: 700;
+}

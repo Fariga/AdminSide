@@ -1,0 +1,15 @@
+.btn-menu {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(48);
+  height: rem(48);
+  padding: rem(12);
+  cursor: pointer;
+  color: var(--grey-3);
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}

@@ -1,0 +1,19 @@
+.school-finance {
+  background-color: var(--white);
+  border-radius: rem(20);
+  padding: rem(32) rem(35) rem(32) rem(32);
+}
+
+.school-finance__box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: rem(35);
+}
+
+.school-finance__foto {
+  img {
+    width: 100%;
+    aspect-ratio: 1.08/1;
+    object-fit: cover;
+  }
+}

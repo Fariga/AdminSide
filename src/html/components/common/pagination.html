@@ -1,19 +1,27 @@
-<div class="pagination">
-  <button class="pagination__btn-icon pagination__btn-icon--prev">
-    <span class="visually-hidden">prev</span>
-    <svg width="32" height="32">
-      <use xlink:href="#dropdown"></use>
-    </svg>
-  </button>
-  <div class="pagination__pages">
-    <button class="pagination__btn">1</button>
-    <button class="pagination__btn">2</button>
-    <button class="pagination__btn">3</button>
-  </div>
-  <button class="pagination__btn-icon pagination__btn-icon--next">
-    <span class="visually-hidden">next</span>
-    <svg width="32" height="32">
-      <use xlink:href="#dropdown"></use>
-    </svg>
-  </button>
-</div>
+<ul class="pagination">
+  <li class="pagination__item">
+    <a class="pagination__link pagination__link--prev disabled" href="#">
+      <span class="visually-hidden">prev</span>
+      <svg width="32" height="32">
+        <use xlink:href="#dropdown"></use>
+      </svg>
+    </a> 
+  </li>
+    <li class="pagination__item">
+      <a class="pagination__link pagination__link--page" href="#">1</a>
+    </li>
+    <li class="pagination__item">
+      <a class="pagination__link pagination__link--page" href="#">2</a>
+    </li>
+    <li class="pagination__item">
+      <a class="pagination__link pagination__link--page" href="#">3</a>
+    </li>
+  <li class="pagination__link">
+    <a class="pagination__link pagination__link--next" href="#">
+      <span class="visually-hidden">next</span>
+      <svg width="32" height="32">
+        <use xlink:href="#dropdown"></use>
+      </svg>
+    </a> 
+  </li>
+</ul>

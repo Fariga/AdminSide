@@ -1,0 +1,23 @@
+.unpaid-student {
+  background-color: var(--white);
+  border-radius: 1.25rem;
+  padding: rem(32);
+}
+
+.unpaid-student__title {
+  margin-bottom: rem(24);
+}
+
+.unpaid-student__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+
+.unpaid-student__item {
+  padding: rem(28) 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) 110px minmax(0, 1fr) 48px 48px;
+  gap: rem(8);
+}
