@@ -1,0 +1,12 @@
+.btn-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(44);
+  height: rem(44);
+  background-color: transparent;
+  color: var(--grey-3);
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}

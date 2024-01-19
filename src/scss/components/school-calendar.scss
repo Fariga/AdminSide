@@ -1,0 +1,70 @@
+.school-calendar {
+  background-color: var(--white);
+  border-radius: rem(20);
+  padding: rem(32);
+  width: rem(520);
+  height: rem(562);
+  grid-area: calendar;
+}
+
+.school-calendar__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: rem(32);
+}
+
+.school-calendar__box {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: rem(6);
+}
+
+.school-calendar__weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: auto 1fr;
+  justify-items: center; 
+  align-items: center; 
+
+  &--days {
+    margin-bottom: rem(13);
+  }
+}
+
+.school-calendar__day {
+  color: var(--grey-3);
+  padding: rem(10);
+}
+
+.school-calendar__date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: rem(65);
+  height: rem(74);
+  border: 1px solid var(--Color-Gray, #F5F5F5);
+
+  &--shape {
+    color: var(--white);
+    width: rem(48);
+    height: rem(48);
+    border-radius: 50%;
+  }
+
+  &--current {
+    background-color: var(--grey-1);
+  }
+
+  &--purple {
+    background-color: var(--purple);
+  }
+
+  &--yellow {
+    background-color: var(--yellow);
+  }
+
+  &--orange {
+    background-color: var(--orange);
+  }
+}

@@ -1,0 +1,11 @@
+.header {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  grid-area: header;
+}
+
+.header__title {
+  font-size: rem(36);
+  margin: 0;
+}

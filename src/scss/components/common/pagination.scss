@@ -4,6 +4,7 @@
   gap: rem(16);
   list-style: none;
   padding: 0;
+  margin-left: auto;
 }
 
 .pagination__link {
@@ -15,6 +16,7 @@
   background-color: transparent;
   color: var(--grey-3);
   cursor: pointer;
+  text-decoration: none;
 
   &.disabled {
     color: var(--disabled); 

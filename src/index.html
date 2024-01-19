@@ -4,28 +4,17 @@
     'title': 'AdminSite'
   })
   <body>
-    
-    @@include('html/components/common/icons.html') 
-    @@include('html/components/common/personal_info.html')
-    @@include('html/components/common/sidebar-menu.html')
-    @@include('html/components/student_contact.html')
-    @@include('html/components/messages.html')
-    @@include('html/components/current_menu.html')
-    @@include('html/components/common/search-bar.html')
-    @@include('html/components/common/pagination.html')
-    @@include('html/components/general-statistic.html')
-    @@include('html/components/school_performance.html')
-    @@include('html/components/school_finance.html')
-    @@include('html/components/unpaid_student_intuition.html')
-
     <div class="wrapper">
-      @@include('html/header.html')
-
       <main class="page">
-        <!-- hello world -->
-      </main>
-
-      
+        <div class="wrapper-box">
+          @@include('html/components/common/icons.html')
+          <div class="main-content">
+            @@include('html/components/common/sidebar-menu.html')
+            @@include('html/main-info.html')
+            @@include('html/components/secondary-menu.html')
+          </div>
+        </div>
+      </main>  
     </div>
   </body>
 </html>

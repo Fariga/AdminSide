@@ -5,6 +5,7 @@
   border-radius: 50%;
   color: var(--white);
   text-decoration: none;
+  flex-shrink: 0;
 
   &--students {
     background-color: var(--purple);
