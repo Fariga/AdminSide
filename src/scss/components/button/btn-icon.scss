@@ -14,6 +14,7 @@
   text-align: center;
   vertical-align: middle;
   flex-shrink: 0;
+  transition: all 0.3s;
 
   &:hover {
     background-color: var(--purple);
@@ -21,4 +22,24 @@
     color: var(--white);
     border-color: var(--purple);
   }
+
+  &--right:hover svg {
+    animation: toRight 0.3s forwards;
+  }
 }
+
+@keyframes toRight {
+  49% {
+    transform: translate(100%);
+  }
+
+  50% {
+    opacity: 0;
+    transform: translate(-100%);
+  }
+
+  51% {
+    opacity: 1;
+  }
+}
+

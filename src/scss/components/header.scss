@@ -5,7 +5,35 @@
   grid-area: header;
 }
 
+@keyframes shadow {
+  0%,
+  100% {
+    text-shadow: 0.05em 0.05em 0 var(--header-shadow);
+  }
+
+  17% {
+    text-shadow: 0 0.05em 0 var(--header-shadow);
+  }
+
+  34% {
+    text-shadow: -0.05em 0.05em 0 var(--header-shadow);
+  }
+
+  51% {
+    text-shadow: -0.05em 0 0 var(--header-shadow);
+  }
+
+  68% {
+    text-shadow: -0.05em -0.05em 0 var(--header-shadow);
+  }
+
+  85% {
+    text-shadow: 0 -0.05em 0 var(--header-shadow);
+  }
+}
+
 .header__title {
   font-size: rem(36);
   margin: 0;
+  animation: shadow 4s infinite linear;
 }
