@@ -1,4 +1,5 @@
-.main-content {
+.page {
   display: grid;
   grid-template-columns: rem(345) 1fr rem(395);
+  height: 100%;
 }

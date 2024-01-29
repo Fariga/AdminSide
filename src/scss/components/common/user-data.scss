@@ -55,10 +55,4 @@
     color: var(--text);
     text-decoration: none;
   } 
-
-  &--size, &--name {
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis;
-  }
 }

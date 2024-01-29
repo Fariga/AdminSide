@@ -2,15 +2,21 @@
   background-color: var(--white);
   border-radius: rem(20);
   padding: rem(32);
-  width: rem(520);
-  height: rem(562);
   grid-area: calendar;
+  display: flex;
+  flex-direction: column;
 }
 
 .school-calendar__header {
   display: flex;
   align-items: center;
   margin-bottom: rem(32);
+}
+
+.school-calendar__calendar {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
 }
 
 .school-calendar__box {
@@ -23,9 +29,10 @@
 .school-calendar__weekdays {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: auto 1fr;
   justify-items: center; 
   align-items: center; 
+  flex-grow: 1;
+  height: 100%;
 
   &--days {
     margin-bottom: rem(13);
@@ -41,9 +48,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: rem(65);
-  height: rem(74);
-  border: 1px solid var(--Color-Gray, #F5F5F5);
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--color-gray, #F5F5F5);
 
   &--shape {
     color: var(--white);

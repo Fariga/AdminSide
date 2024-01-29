@@ -36,6 +36,10 @@
   &--color {
     color: var(--purple);
   }
+
+  &::before {
+    content: "$";
+  }
 }
 
 .unpaid-student__class {

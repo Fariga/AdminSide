@@ -1,27 +1,4 @@
-<ul class="pagination">
-  <li class="pagination__item">
-    <a class="pagination__link pagination__link--prev disabled" href="#">
-      <span class="visually-hidden">prev</span>
-      <svg width="32" height="32">
-        <use xlink:href="#dropdown"></use>
-      </svg>
-    </a> 
-  </li>
-    <li class="pagination__item">
-      <a class="pagination__link pagination__link--page" href="#">1</a>
-    </li>
-    <li class="pagination__item">
-      <a class="pagination__link pagination__link--page" href="#">2</a>
-    </li>
-    <li class="pagination__item">
-      <a class="pagination__link pagination__link--page" href="#">3</a>
-    </li>
-  <li class="pagination__link">
-    <a class="pagination__link pagination__link--next" href="#">
-      <span class="visually-hidden">next</span>
-      <svg width="32" height="32">
-        <use xlink:href="#dropdown"></use>
-      </svg>
-    </a> 
-  </li>
-</ul>
+<div class="pagination">
+  <p class="pagination__description">Showing <span class="new"><span>1</span>-<span>5</span></span> from <span>100</span> data</p>
+  @@include('pagination__list.html')
+</div>
