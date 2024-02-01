@@ -6,6 +6,11 @@
   &--md {
     gap: rem(24);
   }
+
+  &--messages {
+    margin-top: rem(5);
+    min-width: 0;
+  }
 }
 
 .user-data__text-box {
@@ -50,10 +55,4 @@
     color: var(--text);
     text-decoration: none;
   } 
-
-  &--size, &--name {
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis;
-  }
 }

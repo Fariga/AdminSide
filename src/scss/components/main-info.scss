@@ -1,0 +1,14 @@
+.main-info {
+  height: 100%;
+  overflow: auto;
+  padding: rem(50);
+  display: grid;
+  grid-template-areas:  "header header"
+                        "statistic statistic"
+                        "perfomance perfomance"
+                        "calendar finance"
+                        "unpaid unpaid";
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: rem(40);
+  grid-row-gap: rem(40);
+}

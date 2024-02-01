@@ -1,0 +1,19 @@
+.btn-menu {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(46);
+  height: rem(46);
+  padding: rem(10);
+  cursor: pointer;
+  color: var(--grey-3);
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+
+  &:hover {
+    color: var(--purple);
+  }
+}

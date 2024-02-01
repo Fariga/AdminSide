@@ -1,0 +1,40 @@
+.user-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--white);
+  text-decoration: none;
+  flex-shrink: 0;
+
+  &--students {
+    background-color: var(--purple);
+  }
+
+  &--teachers {
+    background-color: var(--orange);
+  }
+
+  &--events {
+    background-color: var(--yellow);
+  }
+
+  &--foods {
+    background-color: var(--text);
+  }
+
+  &--sm {
+    width: rem(40);
+    height: rem(40);
+  }
+
+  &--md {
+    width: rem(48);
+    height: rem(48);
+  }
+
+  &--lg {
+    width: rem(72);
+    height: rem(72);
+  }
+}

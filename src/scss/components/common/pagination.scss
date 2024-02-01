@@ -1,0 +1,14 @@
+.pagination {
+  display: flex;
+  align-items: center;
+}
+
+.pagination__description {
+  margin-left: rem(9);
+  font-size: rem(14);
+  color: var(--grey-3);
+
+  span {
+    color: var(--text);
+  }
+}

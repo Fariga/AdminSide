@@ -4,22 +4,11 @@
     'title': 'AdminSite'
   })
   <body>
-    
-    @@include('html/components/common/icons.html') 
-    @@include('html/components/common/personal_info.html')
-    @@include('html/components/common/sidebar-menu.html')
-    @@include('html/components/student_contact.html')
-    @@include('html/components/messages.html')
-    @@include('html/components/current_menu.html')
-
-    <div class="wrapper">
-      @@include('html/header.html')
-
-      <main class="page">
-        <!-- hello world -->
-      </main>
-
-      
-    </div>
+    @@include('html/components/common/icons.html')
+    <main class="page">
+      @@include('html/components/common/sidebar-menu.html')
+      @@include('html/main-info.html')
+      @@include('html/components/secondary-menu.html')
+    </main>  
   </body>
 </html>

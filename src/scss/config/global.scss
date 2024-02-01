@@ -11,9 +11,13 @@ html {
 }
 
 body {
-  min-height: 100%;
   font: 400 rem(18)/1.5 var(--main-font);
   color: var(--text);
   background-color: var(--main-background-color);
+  margin: 0 auto;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
 }  
+
 
