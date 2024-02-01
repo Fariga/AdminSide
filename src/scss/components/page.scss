@@ -1,5 +1,5 @@
 .page {
   display: grid;
-  grid-template-columns: rem(345) 1fr rem(395);
+  grid-template-columns: auto 1fr auto;
   height: 100%;
 }
