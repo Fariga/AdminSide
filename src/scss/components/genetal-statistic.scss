@@ -10,7 +10,7 @@
   padding: 0;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(rem(200), 1fr));
   gap: rem(10);
 }
 
@@ -19,8 +19,8 @@
   grid-template-areas:
     "icon text"
     "icon number";
-  column-gap: 30px;
-  grid-template-columns: 72px 1fr;  
+  column-gap: rem(30);
+  grid-template-columns: rem(72) 1fr;  
 }
 
 .general-statistic__link {

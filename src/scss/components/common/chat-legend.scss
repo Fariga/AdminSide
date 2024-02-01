@@ -21,12 +21,16 @@
     height: rem(6);
     border-radius: 50%;
     color: transparent;
-    box-shadow: 0 0 0 3px var(--yellow);
+    
     left: rem(4);
     top: rem(7);
   }
 
-  &--color::before {
+ &--data-week::before {
+  box-shadow: 0 0 0 3px var(--yellow);
+ }
+
+  &--data-lastweek::before {
     box-shadow: 0 0 0 3px var(--orange);
   }
 }

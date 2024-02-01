@@ -1,0 +1,5 @@
+.currency--us {
+  &::before {
+    content: '$';
+  } 
+}

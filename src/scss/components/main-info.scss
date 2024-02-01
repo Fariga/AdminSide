@@ -1,4 +1,6 @@
 .main-info {
+  height: 100%;
+  overflow: auto;
   padding: rem(50);
   display: grid;
   grid-template-areas:  "header header"

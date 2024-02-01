@@ -1,7 +1,8 @@
-<div class="search-bar">
-  <input class="search-bar__input" type="text" placeholder="Search here...">
-  <!-- <span class="search-bar__icon"></span> -->
-  <svg width="32" height="32">
-    <use xlink:href="#search"></use>
-  </svg>
-</div>
+<form action="/search" method="get" class="search-bar">
+  <label for="search">
+    <svg width="32" height="32">
+      <use xlink:href="#search"></use>
+    </svg>  
+  </label>
+  <input id="search" class="search-bar__input" type="text" placeholder="Search here...">
+</form>
