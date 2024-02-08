@@ -1,8 +1,15 @@
 .search-bar {
   position: relative;
   color: var(--purple);
-  margin-left: auto;
   min-width: rem(350);
+
+  &--left {
+  margin-left: auto;
+  }
+
+  &--right {
+    margin-right: auto;
+  }
 
   svg {
     position: absolute;
@@ -13,7 +20,7 @@
 }
 
 .search-bar__input {
-  padding: rem(16) rem(32) rem(16) rem(80);
+  padding: rem(16.5) rem(32) rem(16.5) rem(80);
   border-radius: rem(40);
   width: 100%;
   border: none;

@@ -11,6 +11,10 @@
     margin-top: rem(5);
     min-width: 0;
   }
+
+  &--aligment {
+    align-items: center;
+  }
 }
 
 .user-data__text-box {
@@ -45,6 +49,7 @@
   line-height: 1.5;
   margin: 0;
   color: var(--grey-3);
+  text-decoration: none;
 
   &--md {
     text-align: right;
@@ -53,6 +58,12 @@
   &--name {
     font-weight: 600;
     color: var(--text);
-    text-decoration: none;
   } 
+
+  &--size {
+    font-size: rem(18);
+    font-weight: 700;
+    color: var(--text);
+  }
+
 }

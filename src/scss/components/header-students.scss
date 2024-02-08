@@ -1,0 +1,17 @@
+.header-students__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: rem(40);
+}
+
+.header-students__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: rem(36);
+  line-height: 1.5;
+}
+
+.header-students__box {
+  display: flex;
+  margin-bottom: rem(40);
+}

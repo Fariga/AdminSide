@@ -3,17 +3,22 @@
   align-items: center;
   justify-content: center;
   min-width: rem(168);
-  line-height: 1;
+  line-height: 1.5;
   color: var(--purple);
   border-radius: 2.5em;
   border: 2px solid currentColor;
-  padding: rem(16) rem(24); 
+  padding: rem(14) rem(24); 
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
+  background-color: transparent;
 
   &--wide {
-    padding: rem(16) rem(45);
+    padding: rem(12) rem(44);
     gap: rem(16);
+  }
+
+  &--right {
+    margin-right: rem(24);
   }
 }
