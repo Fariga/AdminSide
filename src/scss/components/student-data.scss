@@ -5,26 +5,42 @@
 }
 
 .student-data {
-  
-  width: 100%;
   border-collapse: collapse;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  margin-bottom: rem(32);
 }
 
 .student-data__row {
   position: relative;
 
-  &::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    display: block;
-    background-color: var(--grey-4);
-    top: 0;
-    left: rem(-32);
-    right: rem(-32);
-    width: calc(100% + rem(64));
+  &--select {
+    
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 4px;
+      height: 100%;
+      background-color: var(--text);
+      display: block;
+    } 
   }
+
+  
+
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   width: 100%;
+  //   height: 1px;
+  //   display: block;
+  //   background-color: var(--grey-4);
+  //   top: 0;
+  //   left: rem(-32);
+  //   right: rem(-32);
+  //   width: calc(100% + rem(64));
+  // }
 }
 
 .student-data__cell {
@@ -35,7 +51,12 @@
   position: relative;
   z-index: 1;
   min-height: rem(112);
+  border-bottom: 1px solid var(--grey-4);
 
+  &:not(:last-child) {
+    padding-right: 10px;
+  }
+  
   &--head {
     font-weight: 600;
     padding-bottom: rem(26);
@@ -43,6 +64,14 @@
 
   &--right {
     text-align: right;
+  }
+
+  &--intend-left {
+    padding-left: rem(4);
+  }
+
+  &--intend-right {
+    padding-right: rem(4)
   }
 
   &--font-weight {
@@ -127,7 +156,7 @@
   height: 13px;
   border: solid #fff;
   border-width: 0 3px 3px 0;
-  top: 50%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
 }
