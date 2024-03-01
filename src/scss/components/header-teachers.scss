@@ -1,0 +1,18 @@
+
+.header-teachers__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: rem(40);
+}
+
+.header-teachers__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: rem(36);
+  line-height: 1.5;
+}
+
+.header-teachers__box {
+  display: flex;
+  margin-bottom: rem(40);
+}

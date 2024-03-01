@@ -28,8 +28,16 @@
     border-color: transparent;
   }
 
+  &--background-2 {
+    background-color: var(--purple);
+  }
+
   &--color-1 {
     color: var(--purple);
+  }
+
+  &--color-2 {
+    color: var(--white);
   }
 
   &:hover {
@@ -37,6 +45,19 @@
     box-shadow: var(--shadow-1);
     color: var(--white);
     border-color: var(--purple);
+  }
+
+  &--background-2 {
+    &:hover {
+    background-color: var(--grey-2);
+    border-color: transparent;
+    }
+  }
+
+  &--color-2 {
+    &:hover {
+      color: var(--text);
+    }
   }
 
   &--right:hover svg {
