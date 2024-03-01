@@ -1,5 +1,7 @@
 .personal-info {
-  margin-bottom: rem(40);
+  &--margin {
+    margin-bottom: rem(40);
+  }
 }
 
 .personal-info__list {
