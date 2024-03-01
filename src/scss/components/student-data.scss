@@ -4,6 +4,10 @@
   padding: rem(32);
 }
 
+.student-registry__box {
+  width: 100%;
+}
+
 .student-data {
   border-collapse: collapse;
   margin-left: -2rem;
@@ -13,17 +17,18 @@
 
 .student-data__row {
   position: relative;
-
+  
   &--select {
     
-
     &::before {
       content: '';
       position: absolute;
-      width: 4px;
+      width: 5px;
       height: 100%;
-      background-color: var(--text);
+      background-color: var(--purple);
       display: block;
+      left: 0;
+      top: 0;
     } 
   }
 
@@ -45,7 +50,7 @@
 
 .student-data__cell {
   font-size: rem(14);
-  line-height: rem(1.5);
+  line-height: 1.5;
   text-align: left;
   padding: rem(32) rem(0);
   position: relative;
@@ -60,6 +65,7 @@
   &--head {
     font-weight: 600;
     padding-bottom: rem(26);
+    padding-top: 0;
   }
 
   &--right {
@@ -67,11 +73,11 @@
   }
 
   &--intend-left {
-    padding-left: rem(4);
+    padding-left: rem(32);
   }
 
   &--intend-right {
-    padding-right: rem(4)
+    padding-right: rem(32);
   }
 
   &--font-weight {
@@ -104,15 +110,11 @@
 }
 
 .student-data__color {
-  position: absolute;
-  width: rem(80);
-  height: rem(40);
+  min-width: rem(80);
+  padding: rem(9);
   border-radius: rem(40);
-  z-index: -1;
-  left: 50%;
-  margin: 0;
-  top: 50%; 
-  transform: translate(-50%, -50%);
+  display: inline-block;
+  
 
   &--background-orange {
     background-color: var(--orange);
