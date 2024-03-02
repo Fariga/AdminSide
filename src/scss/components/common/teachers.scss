@@ -1,0 +1,57 @@
+.teachers__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 0 rem(40) 0;
+  gap: rem(40);
+}
+
+.teachers__item {
+  background-color: var(--white);
+  border-radius: rem(20);
+  padding: rem(32);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: rem(338);
+  flex-grow: 1;
+}
+
+.teachers__data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: rem(32);
+}
+
+.teachers__data-foto {
+  display: block;
+  flex-shrink: 0;
+  margin-bottom: rem(24);
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
+}
+
+.teachers__btn-box {
+  margin-top: auto;
+}
+
+.teachers__name {
+  font-weight: 700;
+  font-size: rem(24);
+  color: var(--text);
+  text-decoration: none;
+  margin: 0;
+}
+
+.teachers__text {
+  font-size: rem(18);
+  color: var(--grey-3);
+  margin: 0;
+}

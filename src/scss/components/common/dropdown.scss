@@ -2,6 +2,12 @@
   position: relative;
 }
 
+.dropdown--teachers {
+  position: absolute;
+  top: rem(21);
+  right: rem(21);
+}
+
 .dropdown__menu {
   display: none;
   position: absolute;
