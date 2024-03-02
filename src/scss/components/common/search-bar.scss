@@ -11,11 +11,15 @@
     margin-right: auto;
   }
 
-  svg {
+  label {
     position: absolute;
     left: rem(32);
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  svg {
+  display: block;
   }
 }
 
