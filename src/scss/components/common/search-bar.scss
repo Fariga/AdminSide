@@ -11,6 +11,10 @@
     margin-right: auto;
   }
 
+  &--margin {
+    margin-right: rem(64);
+  }
+
   label {
     position: absolute;
     left: rem(32);
