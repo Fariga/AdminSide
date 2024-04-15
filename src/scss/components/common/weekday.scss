@@ -1,0 +1,43 @@
+.weekday {
+  min-width: rem(110);
+  min-height: rem(130);
+  border-radius: rem(14);
+  border: 2px solid var(--grey-3);
+  padding: rem(10) rem(20) rem(20) rem(20);
+  background-color: transparent;
+  color: var(--text);
+
+
+  &--disabled {
+    background-color: var(--grey-1);
+    border: 1px solid var(--grey-3);
+    color: var(--grey-3);
+  }
+
+  &--details {
+    border-color: var(--text);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &--important {
+    background-color: var(--orange);
+    color: var(--white);
+    border: 2px solid var(--white);
+  }
+
+  &--today {
+    background-color: var(--purple);
+    box-shadow: 0 0 3px var(--white), 0 0 2px var(--purple);
+    min-width: rem(116);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &--yellow {
+    border-color: var(--yellow);
+  }
+}
