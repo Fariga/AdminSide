@@ -1,0 +1,40 @@
+<section class="food-menu">
+  <h2 class="food-menu__title">Food Menu</h2>
+  <ul class="food-menu__list">
+    <li class="food-menu__item">
+      <div class="dish">
+        <a class="dish__foto dish-foto dish-foto--sm" href="/src/food-details.html">
+          <img src="">
+        </a>
+        <a class="dish__name">Beef Steak with Fried Potato</a>
+        <button class="btn-fill" type="button">Lunch</button>
+      </div>
+      <span class="food-menu__raiting">
+        <span class="food-menu__text">4.9</span>
+      </span>
+      <div class="food-menu__amount">
+        <span class="food-menu__icon-chart">
+          <svg width="62" height="53">
+            <use xlink:href="#chart"></use>
+          </svg>
+        </span>
+        <span class="food-menu__text">1.456</span>
+        <span class="food-menu__content">Total Order</span>
+      </div>
+      <div class="food-menu__interest">
+        <span class="food-menu__icon-arrow">
+          <svg width="40" height="40">
+            <use xlink:href="#arrow"></use>
+          </svg>
+        </span>
+        <span class="food-menu__text">26%</span>
+        <span class="food-menu__content">Interest</span>
+      </div>
+      <div class="food-menu__chart">
+
+      </div>
+      @@include('common/dropdown.html')
+    </li>
+  </ul>
+  @@include('common/pagination.html')
+</section>

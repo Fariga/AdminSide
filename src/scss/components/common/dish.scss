@@ -1,0 +1,32 @@
+.dish {
+  display: flex;
+  gap: rem(40);
+}
+
+.dish__foto {
+  display: block;
+    
+    img {
+    width: 100%;
+    
+    object-fit: cover;
+  }
+  
+  &--sm {
+    aspect-ratio: 1/1;
+    width: rem(150);
+    height: rem(150);
+  }
+
+  &--lg {
+    aspect-ratio: 1.5/1;
+    width: rem(361);
+    height: rem(239);
+  }
+}
+
+.dish__name {
+  font-size: rem(24);
+  line-height: 1.5;
+  font-weight: 700;
+}
