@@ -2,6 +2,10 @@
   display: flex;
   justify-content: flex-end;
   gap: rem(16);
+
+  &--right {
+    margin-right: rem(48);
+  }
 }
 
 .chat-legend__wrapper {

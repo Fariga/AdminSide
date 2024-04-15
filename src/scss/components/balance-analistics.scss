@@ -1,0 +1,24 @@
+.balance-analistics {
+  padding: rem(28) rem(32) rem(32) rem(43);
+  background-color: var(--white);
+  border-radius: rem(20);
+  grid-area: balance-analytics;
+}
+
+.balance-analistics__box {
+  display: flex;
+  align-items: center;
+  margin-bottom: rem(20);
+}
+
+.balance-analistics__title {
+  margin-right: auto;
+}
+
+.balance-analistics__chart {
+  img {
+    width: 100%;
+    aspect-ratio: 3.7/1;
+    object-fit: cover;
+  }
+}

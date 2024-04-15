@@ -23,6 +23,10 @@
     background-color: var(--text);
   }
 
+  &--balance {
+    background-color: var(--yellow);
+  }
+
   &--sm {
     width: rem(40);
     height: rem(40);

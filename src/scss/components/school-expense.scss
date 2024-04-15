@@ -1,0 +1,59 @@
+.school-expense {
+  background-color: var(--white);
+  padding: rem(32);
+  border-radius: rem(20);
+  grid-area: school-expense;
+}
+
+.school-expense__title {
+  margin: 0 0 rem(44) 0;
+  font-size: rem(24);
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.school-expense__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: rem(24);
+  margin-bottom: rem(74);
+}
+
+.school-expense__item {
+  display: grid;
+  gap: rem(10);
+  align-items: center;
+  grid-template-columns: 1fr 25% 22%;
+}
+
+.school-expense__student-info {
+  display: flex;
+}
+
+.school-expense__text-box {
+  margin-left: rem(16);
+}
+
+.school-expense__text {
+  display: block;
+  font-size: rem(14);
+  color: var(--grey-3);
+}
+
+.school-expense__content {
+  font-weight: 600;
+
+  &--complete {
+    color: var(--green);
+  }
+
+  &--pending {
+    color: var(--grey-3);
+  }
+
+  &--canceled {
+    color: var(--red);
+  }
+}

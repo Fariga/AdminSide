@@ -3,7 +3,6 @@
   background-color: var(--white);
   border-radius: rem(20);
   grid-area: calendar;
-  margin-right: rem(40); 
 }
 
 .calendar__header {
@@ -22,15 +21,19 @@
   font-size: rem(36);
   font-weight: 700;
   line-height: 1.5;
+  margin: 0;
 }
 
-.calendar__dayname-list {
+.calendar-simple {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-bottom: rem(24);
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar__dayname-list {
+  margin-bottom: rem(24);
   justify-items: center;
   gap: rem(29);
 }
@@ -42,13 +45,7 @@
 }
 
 .calendar__weekday-list {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  margin: 0;
-  padding: 0;
   gap: rem(29) rem(32);
-  
 }
 
 .calendar__weekday-item {
@@ -89,13 +86,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
   width: rem(26);
   height: rem(26);
   border-radius: 50%;
   background-color: var(--grey-2);
   border: 1px solid var(--white);
-  position: absolute;
-  top: rem(77);
+  // top: rem(77);
   color: var(--white);
   font-size: rem(14);
   line-height: 1.5;
@@ -103,49 +100,48 @@
   &--purple {
     background-color: var(--text);
   }
-}
 
-.calendar__details-position-1 {
-  left: rem(20);
-}
-
-.calendar__details-position-2 {
-  left: rem(40);
-}
-
-.calendar__details-position-3 {
-  left: rem(60);
-}
-
-.calendar__today-box {
-  display: flex;
-}
-
-.calendar__details-rectangle {
-  display: block;
-  width: rem(3);
-  height: rem(35);
-  margin-right: rem(6);
-
-  &--yellow {
-    background-color: var(--yellow);
+  & + .calendar__details-shape {
+    margin-left: rem(20);
   }
 
-  &--orange {
-    background-color: var(--orange);
+  & + .calendar__details-shape--purple {
+  margin-left: rem(38);
   }
+}
+
+.calendar__box {
+  position: absolute;
+  top: rem(78);
 }
 
 .calendar__new-student {
   font-size: rem(14);
   line-height: 1.85;
+  display: inline-flex;
+  align-items: center;
   
-
   &--color-white {
     color: var(--white);
   }
 
   &--color-purple {
     color: var(--text);
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    width: rem(3);
+    height: rem(35);
+    margin-right: rem(6);
+  }
+
+  &--yellow::before {
+    background-color: var(--yellow);
+  }
+
+  &--orange::before {
+    background-color: var(--orange);
   }
 }

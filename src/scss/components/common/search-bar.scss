@@ -3,10 +3,6 @@
   color: var(--purple);
   min-width: rem(350);
 
-  &--left {
-  margin-left: auto;
-  }
-
   &--right {
     margin-right: auto;
   }
@@ -40,3 +36,12 @@
     outline: 2px solid var(--purple);
   }
 }
+
+.search-bar__input ~ label {
+  pointer-events: none;
+}
+
+.search-bar__input:focus ~ label {
+  color: var(--green);
+}
+

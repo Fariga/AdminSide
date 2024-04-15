@@ -1,0 +1,16 @@
+<header class="header-simple">
+  <h2 class="header-simple__title">
+    Events
+  </h2>
+  <div class="header-simple__box">
+    <form action="/search" method="get" class="search-bar search-bar--left search-bar--margin">
+      <label for="search">
+        <svg width="32" height="32">
+          <use xlink:href="#search"></use>
+        </svg>  
+      </label>
+      <input id="search" class="search-bar__input" type="text" placeholder="Search here...">
+    </form>
+  </div>
+  @@include('components/common/personal_info.html')
+</header>

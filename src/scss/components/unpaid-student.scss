@@ -2,7 +2,6 @@
   background-color: var(--white);
   border-radius: 1.25rem;
   padding: rem(32);
-  margin-bottom: rem(30);
   grid-area: unpaid;
 }
 
@@ -11,7 +10,7 @@
 }
 
 .unpaid-student__list {
-  margin: 0;
+  margin: 0 0 rem(30) 0;
   padding: 0;
   list-style: none;
 }
@@ -22,6 +21,10 @@
   grid-template-columns: 1fr 20% 20% 16% rem(48) rem(48);
   gap: rem(10);
   align-items: center;
+
+  &--simple {
+    grid-template-columns: 1fr 20% 20% 16% rem(48);
+  }
 }
 
 .unpaid-student__data {

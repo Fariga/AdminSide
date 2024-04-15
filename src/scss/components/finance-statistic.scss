@@ -1,0 +1,12 @@
+.finance-statistic {
+  grid-area: finance-statistic;
+  background-color: transparent;
+}
+
+.finance-statistic__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: rem(40);
+}
