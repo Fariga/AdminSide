@@ -3,25 +3,25 @@
   gap: rem(40);
 }
 
-.dish__foto {
+.dish-foto {
   display: block;
+  border-radius: rem(18);
+  overflow: hidden;
     
     img {
     width: 100%;
-    
     object-fit: cover;
+      height: 100%;
   }
   
   &--sm {
     aspect-ratio: 1/1;
     width: rem(150);
-    height: rem(150);
   }
 
   &--lg {
     aspect-ratio: 1.5/1;
     width: rem(361);
-    height: rem(239);
   }
 }
 
@@ -29,4 +29,54 @@
   font-size: rem(24);
   line-height: 1.5;
   font-weight: 700;
+  margin-top: rem(17);
+  text-decoration: none;
+  color: var(--text);
+}
+
+.dish__text-box {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.food-menu__raiting {
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: rem(8);
+  }
+}
+
+.food-menu__text {
+  font-size: rem(24);
+  font-weight: 700;
+}
+
+.food-menu__content {
+  color: var(--grey-3);
+}
+
+.food-menu__amount {
+  display: flex;
+  align-items: center;
+}
+
+.food-menu__icon-chart {
+  margin-right: rem(24);
+}
+
+.food-menu__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.food-menu__interest {
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: rem(32);
+  }
 }

@@ -17,4 +17,10 @@
     padding: rem(16) rem(31);
     gap: rem(16);
   }
+
+  &--sm {
+    max-width: rem(120);
+    font-size: rem(14);
+    padding: rem(10);
+  }
 }

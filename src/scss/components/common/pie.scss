@@ -1,0 +1,21 @@
+.pie {
+  --w: 60px;
+  width: var(--w);
+  aspect-ratio: 1;
+  display: inline-grid;
+  place-content: center;
+  font-size: rem(14);
+  line-height: 1.5;
+  font-weight: 600;
+  position: relative;
+
+  &::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  inset: 0;
+  background: conic-gradient(var(--c) calc(var(--p)*1%),var(--purple) 0);
+  -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+          mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+  }
+}
