@@ -28,8 +28,50 @@
 
 .food-menu__item {
   display: grid;
-  grid-template-columns: 40% 6% 14% 10% rem(60) rem(46);
-  gap: rem(15);
+  grid-template-columns: 11% 1fr 6% 14% 10% rem(60) rem(46);
+  gap: rem(40);
   align-items: center;
   justify-content: space-between;
+}
+
+
+.food-menu__text {
+  font-size: rem(24);
+  font-weight: 700;
+}
+
+.food-menu__content {
+  color: var(--grey-3);
+}
+
+.food-menu__amount {
+  display: flex;
+  align-items: center;
+}
+
+.food-menu__icon-chart {
+  margin-right: rem(24);
+}
+
+.food-menu__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.food-menu__interest {
+  display: flex;
+  align-items: center;
+
+  span {
+    margin-right: rem(32);
+  }
+}
+
+.food-menu__raiting {
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: rem(8);
+  }
 }

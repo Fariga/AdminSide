@@ -1,7 +1,3 @@
-.dish {
-  display: flex;
-  gap: rem(40);
-}
 
 .dish-foto {
   display: block;
@@ -9,19 +5,17 @@
   overflow: hidden;
     
     img {
-    width: 100%;
     object-fit: cover;
-      height: 100%;
+    height: 100%;
+    width: 100%;
   }
   
   &--sm {
     aspect-ratio: 1/1;
-    width: rem(150);
   }
 
   &--lg {
     aspect-ratio: 1.5/1;
-    width: rem(361);
   }
 }
 
@@ -40,43 +34,3 @@
   
 }
 
-.food-menu__raiting {
-  display: flex;
-  align-items: center;
-
-  svg {
-    margin-right: rem(8);
-  }
-}
-
-.food-menu__text {
-  font-size: rem(24);
-  font-weight: 700;
-}
-
-.food-menu__content {
-  color: var(--grey-3);
-}
-
-.food-menu__amount {
-  display: flex;
-  align-items: center;
-}
-
-.food-menu__icon-chart {
-  margin-right: rem(24);
-}
-
-.food-menu__container {
-  display: flex;
-  flex-direction: column;
-}
-
-.food-menu__interest {
-  display: flex;
-  align-items: center;
-
-  svg {
-    margin-right: rem(32);
-  }
-}

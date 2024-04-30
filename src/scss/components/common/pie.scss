@@ -1,6 +1,5 @@
 .pie {
-  --w: 60px;
-  width: var(--w);
+  width: 100%;
   aspect-ratio: 1;
   display: inline-grid;
   place-content: center;
