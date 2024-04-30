@@ -1,25 +1,25 @@
 <section class="students-info">
-  <header class="header-students">
-    <div class="header-students__wrapper">
-      <h2 class="header-students__title header-title">Students</h2>
-      @@include('components/common/personal_info.html')
-    </div>
-    <div class="header-students__box">
-      <form class="search-bar search-bar--right" action="/search" method="get">
-        <input id="search" class="search-bar__input" type="text" placeholder="Search here...">
+  <header class="header-simple header-simple--position">
+    <h2 class="header-simple__title header-simple__title--position">
+      Students
+    </h2>
+    <div class="header-simple__box header-simple__box--order">
+      <form action="/search" method="get" class="search-bar search-bar--right">
         <label for="search">
           <svg width="32" height="32">
             <use xlink:href="#search"></use>
           </svg>  
         </label>
+        <input id="search" class="search-bar__input" type="text" placeholder="Search here...">
       </form>
-      <button class="btn-outline btn-outline--wide btn-outline--right" type="button">Newest
-        <svg width="32" height="32">
-          <use xlink:href="#dropdown"></use>
-        </svg>
-      </button>
-      @@include('components/common/btn/btn_fill_icon.html')
+        <button class="teachers-info__btn btn-outline btn-outline--wide btn-outline--right" type="button">Newest
+          <svg width="32" height="32">
+            <use xlink:href="#dropdown"></use>
+          </svg>
+        </button>
+        @@include('components/common/btn/btn_fill_icon.html')
     </div>
+    @@include('components/common/personal_info.html')
   </header>
   @@include('components/student-registry.html')
 </section>

@@ -1,11 +1,14 @@
 .weekday {
-  min-width: rem(110);
   min-height: rem(130);
   border-radius: rem(14);
   border: 2px solid var(--grey-3);
   padding: rem(10) rem(20) rem(20) rem(20);
   background-color: transparent;
   color: var(--text);
+
+  &::before {
+    content: attr(data-day);
+  }
 
 
   &--disabled {

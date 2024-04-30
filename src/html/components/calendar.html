@@ -24,7 +24,7 @@
       </button>
     </div>
   </header>
-  <ul class="calendar__dayname-list">
+  <ul class="calendar__dayname-list calendar-simple">
     <li class="calendar__dayname-item">Monday</li>
     <li class="calendar__dayname-item">Tuesday</li>
     <li class="calendar__dayname-item">Wednesday</li>
@@ -33,99 +33,80 @@
     <li class="calendar__dayname-item">Saturday</li>
     <li class="calendar__dayname-item">Sunday</li>
   </ul>
-  <ul class="calendar__weekday-list">
-    <li class="calendar__weekday-item weekday weekday--disabled">
-      <span class="calendar__weekday-text">31</span>
-    </li>
-    <li class="calendar__weekday-item weekday weekday--details">
-      <span class="calendar__weekday-text">1</span>
-    </li>
-    <li class="calendar__weekday-item weekday">2
+  <ul class="calendar__weekday-list calendar-simple">
+    <li class="calendar__weekday-item weekday weekday--disabled" data-day="31"></li>
+    <li class="calendar__weekday-item weekday weekday--details" data-day="1"></li>
+    <li class="calendar__weekday-item weekday" data-day="2">
       <div class="calendar__details-box">
         <span class="calendar__details calendar__details--yellow"></span>
         <span class="calendar__details calendar__details--purple"></span>
         <span class="calendar__details calendar__details--orange"></span>
       </div>
     </li>
-    <li class="calendar__weekday-item weekday">3</li>
-    <li class="calendar__weekday-item weekday">4</li>
-    <li class="calendar__weekday-item weekday weekday--details">5</li>
-    <li class="calendar__weekday-item weekday weekday--important">6
-      <span class="calendar__details-shape calendar__details-position-1"></span>
-      <span class="calendar__details-shape calendar__details-position-2"></span>
-      <span class="calendar__details-shape calendar__details-position-3 calendar__details-shape--purple">
-      7+</span>  
-    </li>
-    <li class="calendar__weekday-item weekday">7</li>
-    <li class="calendar__weekday-item weekday">
-      <span class="calendar__weekday-text">8</span>
-    </li>
-    <li class="calendar__weekday-item weekday">
-      <span class="calendar__weekday-text">9</span>
-    </li>
-    <li class="calendar__weekday-item weekday weekday--today">10
-      <div class="calendar__today-box">
-        <span class="calendar__details-rectangle calendar__details-rectangle--yellow"></span>
-        <span class="calendar__new-student calendar__new-student--white">Karen, </span>
-        <span class="calendar__new-student calendar__new-student--white"> 2</span>
-        <span class="calendar__new-student calendar__new-student--white calendar__plus">+</span>  
+    <li class="calendar__weekday-item weekday" data-day="3"></li>
+    <li class="calendar__weekday-item weekday" data-day="4"></li>
+    <li class="calendar__weekday-item weekday weekday--details" data-day="5"></li>
+    <li class="calendar__weekday-item weekday weekday--important" data-day="6">
+      <div class="calendar__box">
+        <span class="calendar__details-shape"></span>
+        <span class="calendar__details-shape"></span>
+        <span class="calendar__details-shape calendar__details-shape--purple">
+        7+</span> 
       </div>
     </li>
-    <li class="calendar__weekday-item weekday">11</li>
-    <li class="calendar__weekday-item weekday">12</li>
-    <li class="calendar__weekday-item weekday">13</li>
-    <li class="calendar__weekday-item weekday">14</li>
-    <li class="calendar__weekday-item weekday weekday--details">15
-      <span class="calendar__details-shape calendar__details-position-1"></span>
-      <span class="calendar__details-shape calendar__details-position-2"></span>
-      <span class="calendar__details-shape calendar__details-position-3 calendar__details-shape--purple">
-      2+</span>  
+    <li class="calendar__weekday-item weekday" data-day="7"></li>
+    <li class="calendar__weekday-item weekday" data-day="8"></li>
+    <li class="calendar__weekday-item weekday" data-day="9"></li>
+    <li class="calendar__weekday-item weekday weekday--today" data-day="10">
+      <span class="calendar__new-student calendar__new-student--yellow calendar__new-student--white">Karen, 2+</span>
     </li>
-    <li class="calendar__weekday-item weekday">16</li>
-    <li class="calendar__weekday-item weekday">17</li>
-    <li class="calendar__weekday-item weekday weekday--details">18
-      <div class="calendar__today-box">
-        <span class="calendar__details-rectangle calendar__details-rectangle--orange"></span>
-        <span class="calendar__new-student calendar__new-student--purple">Tony, </span>
-        <span class="calendar__new-student calendar__new-student--purple">2</span>
-        <span class="calendar__new-student calendar__new-student--purple calendar__plus">+</span> 
+    <li class="calendar__weekday-item weekday" data-day="11"></li>
+    <li class="calendar__weekday-item weekday" data-day="12"></li>
+    <li class="calendar__weekday-item weekday" data-day="13"></li>
+    <li class="calendar__weekday-item weekday" data-day="14"></li>
+    <li class="calendar__weekday-item weekday weekday--details" data-day="15">
+      <div class="calendar__box">
+        <span class="calendar__details-shape"></span>
+        <span class="calendar__details-shape"></span>
+        <span class="calendar__details-shape calendar__details-shape--purple">
+        2+</span>  
       </div>
     </li>
-    <li class="calendar__weekday-item weekday">19</li>
-    <li class="calendar__weekday-item weekday weekday--yellow">20
+    <li class="calendar__weekday-item weekday" data-day="16"></li>
+    <li class="calendar__weekday-item weekday" data-day="17"></li>
+    <li class="calendar__weekday-item weekday weekday--details" data-day="18">
+      <span class="calendar__new-student calendar__new-student--orange calendar__new-student--white">Tony, 2+</span>
+    </li>
+    <li class="calendar__weekday-item weekday" data-day="19"></li>
+    <li class="calendar__weekday-item weekday weekday--yellow" data-day="20">
       <div class="calendar__details-box">
         <span class="calendar__details calendar__details--purple"></span>
         <span class="calendar__details calendar__details--yellow"></span>
         <span class="calendar__details calendar__details--orange"></span>
       </div>
     </li>
-    <li class="calendar__weekday-item weekday">21</li>
-    <li class="calendar__weekday-item weekday">22</li>
-    <li class="calendar__weekday-item weekday">23</li>
-    <li class="calendar__weekday-item weekday weekday--details">24
+    <li class="calendar__weekday-item weekday" data-day="21"></li>
+    <li class="calendar__weekday-item weekday" data-day="22"></li>
+    <li class="calendar__weekday-item weekday" data-day="23"></li>
+    <li class="calendar__weekday-item weekday weekday--details" data-day="24">
       <div class="calendar__details-box">
         <span class="calendar__details calendar__details--purple"></span>
         <span class="calendar__details calendar__details--orange"></span>
         <span class="calendar__details calendar__details--yellow"></span>
       </div>
     </li>
-    <li class="calendar__weekday-item weekday">25</li>
-    <li class="calendar__weekday-item weekday">26</li>
-    <li class="calendar__weekday-item weekday">27</li>
-    <li class="calendar__weekday-item weekday">28</li>
-    <li class="calendar__weekday-item weekday weekday--details">29
-      <div class="calendar__today-box">
-        <span class="calendar__details-rectangle calendar__details-rectangle--yellow"></span>
-        <span class="calendar__new-student calendar__new-student--purple">Johnny</span>
-        <span class="calendar__new-student-number calendar__new-student--purple"></span>
-        <span class="calendar__new-student-plus calendar__new-student--purple"></span> 
-      </div>
+    <li class="calendar__weekday-item weekday" data-day="25"></li>
+    <li class="calendar__weekday-item weekday" data-day="26"></li>
+    <li class="calendar__weekday-item weekday" data-day="27"></li>
+    <li class="calendar__weekday-item weekday" data-day="28"></li>
+    <li class="calendar__weekday-item weekday weekday--details" data-day="29">
+      <span class="calendar__new-student calendar__new-student--yellow calendar__new-student--white">Johnny</span>
     </li>
-    <li class="calendar__weekday-item weekday">30</li>
-    <li class="calendar__weekday-item weekday weekday--disabled">1</li>
-    <li class="calendar__weekday-item weekday weekday--disabled">2</li>
-    <li class="calendar__weekday-item weekday weekday--disabled">3</li>
-    <li class="calendar__weekday-item weekday weekday--disabled">4</li>
+    <li class="calendar__weekday-item weekday" data-day="30"></li>
+    <li class="calendar__weekday-item weekday weekday--disabled" data-day="1"></li>
+    <li class="calendar__weekday-item weekday weekday--disabled" data-day="2"></li>
+    <li class="calendar__weekday-item weekday weekday--disabled" data-day="3"></li>
+    <li class="calendar__weekday-item weekday weekday--disabled" data-day="4"></li>
   </ul>
 </section>
 

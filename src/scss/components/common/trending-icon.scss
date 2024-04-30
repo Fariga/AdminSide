@@ -1,0 +1,12 @@
+.trending-icon {
+  width: rem(56);
+  height: rem(56);
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--white);
+  text-decoration: none;
+  flex-shrink: 0;
+}

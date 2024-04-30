@@ -1,0 +1,15 @@
+.finance-info {
+  padding: rem(50) rem(50) rem(40) rem(50);
+  overflow: auto;
+  display: grid;
+  grid-template-areas: "header header"
+                        "finance-statistic finance-statistic"
+                        "balance-analytics balance-analytics"
+                        "unpaid-student school-expense";
+  gap: rem(40);
+}
+
+.finance-info__unpaid-student {
+  grid-area: unpaid-student;
+}
+

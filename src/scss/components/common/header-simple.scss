@@ -1,0 +1,29 @@
+.header-simple {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &--position {
+    margin-bottom: rem(40);
+  }
+}
+
+.header-simple__title {
+  margin: 0;
+
+  &--position {
+    margin-right: auto;
+  }
+}
+
+.header-simple__box {
+  margin-left: auto;
+
+  &--order {
+    order: 5;
+    width: 100%;
+    display: flex;
+    margin-top: rem(40);
+  }
+}
