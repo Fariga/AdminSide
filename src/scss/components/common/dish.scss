@@ -1,0 +1,36 @@
+
+.dish-foto {
+  display: block;
+  border-radius: rem(18);
+  overflow: hidden;
+    
+    img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  &--sm {
+    aspect-ratio: 1/1;
+  }
+
+  &--lg {
+    aspect-ratio: 1.5/1;
+  }
+}
+
+.dish__name {
+  font-size: rem(24);
+  line-height: 1.5;
+  font-weight: 700;
+  margin-top: rem(17);
+  text-decoration: none;
+  color: var(--text);
+}
+
+.dish__text-box {
+  display: flex;
+  flex-direction: column;
+  
+}
+
